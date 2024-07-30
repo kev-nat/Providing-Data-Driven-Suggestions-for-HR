@@ -33,6 +33,7 @@
 ### **Modeling and Evaluation**
 <p align="justify"> A random forest model with 300 decision trees was utilized to identify the key features influencing employee turnover. The plot below indicates that in this random forest model, <code>last_evaluation</code>, <code>number_project</code>, <code>tenure</code>, and <code>overworked</code> are the most significant predictors, listed in descending order of importance. These features are also the top predictors in the decision tree model. The random forest model achieved an AUC of 94% and a recall of 90%. </p>
 
+![images/feature-importances.png](https://github.com/user-attachments/assets/16952db6-1229-4b1c-84f1-537ab9e50097)
 
 ### **Conclusion**
 <p align="justify"> This model can assist the HR department in predicting which employees are likely to leave the company. Additionally, it can help identify the factors contributing to employee turnover, enabling the HR team to take actions to improve retention. This is particularly valuable as recruiting, interviewing, and hiring new employees is both time-consuming and costly. </p>
